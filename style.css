@@ -1,0 +1,88 @@
+
+body{
+    background: #023047;
+    color: white;
+    font: 14 tahoma;
+    font-size: 30px;
+}
+button.remover{
+    position: absolute;
+    right: 80px;
+}
+ul li.naorealizada{
+    list-style-type: '☐';
+    cursor: pointer;
+    text-indent: 10px; /* pense como se fosse a distancia para fazer um paragrafo */
+}
+ul li.realizada{
+    list-style-type: '☑';
+    cursor: pointer;
+    text-indent: 10px; /* pense como se fosse a distancia para fazer um paragrafo */
+    text-decoration: line-through; /* risco na palavra */
+ 
+}
+
+/* formatação */
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: #fb8500;
+    padding: 20px;
+    
+}
+div{
+    text-align: center;
+    
+}
+
+#caixaDeTexto{
+    color: #14213d;
+    background-color: #ffb703;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 3px 4px black;
+    border-radius: 10px;
+}
+
+.adicionar{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #fb8500;
+    box-shadow: 3px 4px 2px black;
+    border-radius: 10px;
+}
+
+.adicionar:active{
+    font-size: 15px;
+}
+
+ul{
+    background-color: aliceblue;
+    color: #333;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 8px 8px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+select{
+    background-color: #14213d;
+    color: white;
+    height: 30px;
+
+}
+
+.remover{
+    background-color: #d90429;
+    box-shadow: 1px 1px 5px #fb8500;
+    cursor: pointer;
+}
+.remover:active{
+    font-size: 10px;
+}
+
